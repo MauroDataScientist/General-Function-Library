@@ -1,0 +1,15 @@
+##-- concatenar o conteúdo destas duas listas:
+
+##-- EXEMPLO
+
+lista_a = ['a', 'b', 'c', 'c']
+
+lista_b = ['j', 'y', 'u', 'k']
+
+##-- este comando concatena o conteúdo das duas listas na lista declarada à esquerda:
+
+lista_a.extend(lista_b)
+
+##-- resultado:
+
+lista_a = ['a', 'b', 'c', 'c', 'j', 'y', 'u', 'k']
