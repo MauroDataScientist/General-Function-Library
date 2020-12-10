@@ -1,0 +1,16 @@
+##-- implementação em python da famosa função implementada em diversas linguagens:
+##-- iif(condição, true return, false return)
+##-- exemplo iif(2*2 == 5, "sim", "não") retorna "não"
+
+##-- em python, a função iif, ou também chamado de "if / else on single line" é declarada assim:
+
+##-- simples
+valor = x if condicao else y
+
+##-- encadeado
+valor = expr1 if condition1 else expr2 if condition2 else expr-n if condition-n else expr...
+
+##-- EXEMPLO:
+b = 10
+a = "equal to 100" if b == 100 else "equal to 50" if b == 50 else ("greater than 100" if b > 100 else "less than 100")
+print(a)
