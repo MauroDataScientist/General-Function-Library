@@ -1,0 +1,16 @@
+##-- em várias linguagens de programação, existem as funções de divisão:
+##-- DIV x,y - que retorna apenas o quociente da divisão - exemplo DIV(5,2) = 2
+##-- MOD x,y - que retorna apenas o quociente da divisão - exemplo MOD(5,2) = 1
+
+Ou seja, o python tem essa função que funciona assim:
+
+divmod(x, y)
+
+retorna (quociente, resto)
+
+EXEMPLO:
+
+resultado = divmod(125,4)
+
+resultado[0] retorna 31 -- quociente
+resultado[1] retorna 1  -- resto
