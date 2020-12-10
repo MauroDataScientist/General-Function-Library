@@ -19,7 +19,7 @@ CONSIDERAÇÕES IMPORTANTES:
       import Pandas as pd
       import Numpy as np
 
-      Veririque se suas declarações de import estão compatíveis antes de executar os exemplos
+      Verifique se suas declarações de import estão compatíveis antes de executar os exemplos
 
 Remember (or not) that command, code snippet, statement, implementation, complicated, common, even simple, but that you never remember how it is, 
 and it is always searching the internet for syntax, examples, how to do it, and what are the ones you forget today and will forget tomorrow?
