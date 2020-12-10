@@ -1,0 +1,18 @@
+##-- Remove ocorrência de elementos duplicados em uma lista
+
+
+##-- Tendo uma lista com elementos duplicados
+
+##-- aplicamos a seguinte sintaxe:
+
+##-- lista com elementos únicos = list(dict.fromkeys(lista com elementos duplicados))
+
+##-- Exemplo:
+
+redundant_elements_list = [1, 2, 4, 7, 9, 11, 23, 6, 8, 3, 90, 2, 6, 6, 23, 4, 1, 4, 8, 2]
+
+unique_elements_list = list(dict.fromkeys(redundant_elements_list))
+
+## resultado -- conteúdo de unique_elements_list: 
+
+[1, 2, 4, 7, 9, 11, 23, 6, 8, 3, 90]
