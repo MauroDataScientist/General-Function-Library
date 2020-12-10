@@ -1,0 +1,15 @@
+##-- teste para verificar a quantidade de elementos existentes em um array
+
+array_vazio = np.array([])
+array_nao_vazio = np.array([1, 2, 3, 4])
+
+
+##-- temos dois métodos básicos
+##-- check se o array é vazio, zize ou len retornam 0, caso contrário, 
+##-- retornam a quantidade de elementos contidas no array
+
+array_vazio.size
+len(array_vazio)
+
+array_nao_vazio .size
+len(array_nao_vazio)
