@@ -1,0 +1,8 @@
+lista_a = ['a', 'b', 'c', 'c']
+
+lista_b = ['j', 'y', 'u', 'k']
+
+lista_a.extend(lista_b)
+
+
+lista_a = ['a', 'b', 'c', 'c', 'j', 'y', 'u', 'k']
